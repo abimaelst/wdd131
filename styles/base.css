@@ -68,6 +68,18 @@ display: flex;
     max-width: 200px;
 }
 
+.card-list ul {
+    list-style: none;
+}
+
+.card-list ul li {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+
 .layout-home {
     display: grid;
     height: 100vh;
