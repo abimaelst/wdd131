@@ -1,0 +1,10 @@
+@media screen and (min-width: 800px) {
+    .container__album {
+        grid-template-columns: repeat(3,minmax(300px, 1fr));
+        grid-template-rows: auto;
+    }
+
+    header {
+        flex-direction: row;
+    }
+}

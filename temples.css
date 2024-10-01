@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.active {
+    background-color: #555;
+}
+
+main {
+    max-width: 1200px;
+    min-height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 1rem;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.container__album {
+    display: grid;
+    grid-template-columns: repeat(1,minmax(300px, 1fr));
+    grid-template-rows: auto;
+}
+
+.container__album img {
+    width: 100%;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem 2rem;
+}
+
+.footer * {
+    margin: 0;
+}
