@@ -73,6 +73,14 @@ figcaption {
     text-align: center;
 }
 
+.transform {
+    transform: scaleX(-1)
+}
+
+.container__album img:hover {
+    box-shadow: 0 0 50px #333;
+}
+
 
 .footer {
     background-color: #333;
