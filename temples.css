@@ -69,6 +69,10 @@ section {
     width: 100%;
 }
 
+figcaption {
+    text-align: center;
+}
+
 
 .footer {
     background-color: #333;
