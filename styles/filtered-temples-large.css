@@ -1,0 +1,15 @@
+@media  screen and (max-width: 768px) {
+    .container__album {
+        grid-template-columns: 1fr;
+    }
+
+    .temple-card {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+.temple-card:hover {
+    background-color: #f9f9f9;
+}
+
