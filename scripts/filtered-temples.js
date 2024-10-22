@@ -60,21 +60,21 @@ const temples = [
         location: "São Paulo, Brazil",
         dedicated: "1978, October, 30",
         area: 59246,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sao-paulo-brazil/400x250/sao-paulo-brazil-temple-lds-83258-wallpaper.jpg"
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
     },
     {
         templeName: "Tokyo Japan Temple",
         location: "Tokyo, Japan",
         dedicated: "1980, October, 27",
         area: 53957,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/tokyo-japan-temple/tokyo-japan-temple-26342.jpg"
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
     },
     {
         templeName: "Fortaleza Brazil Temple",
         location: "Avenida Santos Dumont 7771",
         dedicated: "2019, June, 2",
         area: 36000,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/fortaleza-brazil-temple/fortaleza-brazil-temple-11029.jpg"
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
     },
 ];
 
