@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit your review for the latest tech products here.">
+    <meta name="author" content="Abimael Tavares"> <!-- Replace with your name -->
     <title>Product Review Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
@@ -30,7 +35,7 @@
 
     <label>Useful Features:</label>
     <div id="features">
-        <div class="checkbox">
+       <div class="checkbox">
            <input type="checkbox" id="speed" name="features" value="Speed">
            <label for="speed">Speed</label>
        </div>
@@ -38,6 +43,14 @@
            <input type="checkbox" id="efficiency" name="features" value="Efficiency">
            <label for="efficiency">Efficiency</label>
        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="durability" name="features" value="Durability">
+            <label for="durability">Durability</label>
+        </div>
+        <div>
+            <input type="checkbox" id="userFriendly" name="features" value="User Friendly">
+            <label for="userFriendly">User Friendly</label>
+        </div>
     </div>
 
     <label for="reviewText">Written Review: (optional)</label>
